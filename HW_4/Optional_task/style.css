@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-evenly;
+}
+
+
+img {
+    width: 350px;
+    height: 250px;
+    border: 1px solid black;
+    object-fit: cover;
+    object-position: center;
+}

@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.desc {
+    width: 250px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.close {
+    padding-top: 10px;
+    padding-right: 10px;
+}
